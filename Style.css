@@ -32,12 +32,13 @@ a{
         animation: fadeIn 1.5s;
         position: relative; 
         z-index:  1;
+    
     } 
     .btn::after{
         position: absolute;
         display: inline-block;
-        z-index: -1;
         content: "";
+        z-index: -1;
         left: 0; top: 0;
         background-color:red;
         width: 100%;
@@ -555,7 +556,7 @@ section{
 @keyframes transitionLeft{
     0%{
         opacity: 0;
-        transform: translateX(-30px);
+        transform: translateX(-20px);
     }
     50%{
         
